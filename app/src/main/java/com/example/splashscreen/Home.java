@@ -29,7 +29,7 @@ public class Home extends AppCompatActivity {
         if (item.getItemId() == R.id.menu1) {
             startActivity(new Intent(this, Calculator.class));
         } else if (item.getItemId() == R.id.menu2) {
-            startActivity(new Intent(this, Calculator.class));
+            startActivity(new Intent(this, DailyNote.class));
         }
         return true;
     }

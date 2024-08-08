@@ -7,5 +7,5 @@
         android:title="Calculator" />
     <item
         android:id="@+id/menu2"
-        android:title="Item" />
+        android:title="Daily Note" />
 </menu>
