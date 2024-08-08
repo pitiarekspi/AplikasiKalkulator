@@ -37,7 +37,7 @@ public class LoginRegister extends AppCompatActivity {
                     startActivity(intent);
 
                 } else {
-                    Toast.makeText(getApplicationContext(), "User Not Found, You Must Register First", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Invalid Credentials", Toast.LENGTH_SHORT).show();
                 }
             }
         });
